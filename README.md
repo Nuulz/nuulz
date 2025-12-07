@@ -1,16 +1,32 @@
-## Hi there 👋
+<h1 align="center"> Hola, soy <strong>Nobz</strong></h1>
 
-<!--
-**Nuulz/nuulz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Ciberseguridad · Análisis de vulnerabilidades · Seguridad defensiva  
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Sobre mí
+Soy un estudiante autodidacta de ciberseguridad con interés en el análisis de vulnerabilidades, la protección de sistemas y el fortalecimiento de servicios críticos en entornos controlados.  
+Me gusta el enfoque de comprender cómo surgen las fallas de seguridad y en aplicar prácticas defensivas para mitigarlas.
+
+---
+
+## Áreas de interés
+- Seguridad defensiva (hardening, mitigación, configuración segura)  
+- Análisis de vulnerabilidades en entornos de laboratorio  
+- Protocolos y servicios (FTP, SSH, HTTP)  
+- Redes y tráfico (captura, análisis, validación)  
+- Automatización con Python y Bash  
+
+---
+
+## Tecnologías que utilizo
+- **Python** · Scripts defensivos y verificación de fallas  
+- **Bash** · Automatización  
+- **Nmap** · Verificación y análisis  
+- **Wireshark** · Análisis de tráfico  
+- **Máquinas virtuales** · Laboratorios aislados  
+- **Markdown** · Documentación técnica  
+
+---
