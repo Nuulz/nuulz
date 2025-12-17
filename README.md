@@ -13,53 +13,65 @@
 ---
 
 ## Sobre mí
-Soy **Nobz**, un estudiante autodidacta de ciberseguridad interesado en comprender cómo funcionan las vulnerabilidades, cómo se originan los fallos en servicios críticos y cómo aplicar medidas de defensa para fortalecer los sistemas frente a estas fallas.
+Soy **Nobz**, un estudiante autodidacta de ciberseguridad interesado en comprender cómo funcionan los sistemas a bajo nivel, cómo se originan ciertos comportamientos inesperados en redes y servicios, y cuáles son los límites reales impuestos por el software, el hardware y los proveedores.
 
-Mi enfoque principal es aprender, documentar y mejorar mis capacidades técnicas mientras mantengo un compromiso sólido con la **responsabilidad y la ética en seguridad informática**.
+Mi enfoque principal es **investigar, documentar y aprender**, siempre desde una perspectiva **defensiva, técnica y ética**.
 
 ---
 
 ## Áreas de interés
-- Seguridad defensiva (hardening, mitigación, configuraciones seguras)  
-- Análisis de vulnerabilidades en entornos de laboratorio  
-- Protocolos y servicios (FTP, SSH, HTTP)  
-- Redes y tráfico: captura, validación y monitoreo  
-- Automatización con Python y Bash  
-- Documentación técnica  
+- Seguridad defensiva y hardening de sistemas  
+- Análisis técnico de comportamientos del sistema operativo  
+- Redes móviles y asignación de direcciones IP  
+- Automatización y scripting con Python y Bash  
+- Análisis de límites arquitectónicos y de diseño  
+- Documentación técnica clara y reproducible  
 
 ---
 
 ## Herramientas que utilizo
 <p>
-  <img src="https://img.shields.io/badge/Python-Scripts%20defensivos-yellow?style=flat-square" />
-  <img src="https://img.shields.io/badge/Bash-Automatización-lightgrey?style=flat-square" />
-  <img src="https://img.shields.io/badge/Nmap-Análisis%20seguro-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Wireshark-Tráfico%20de%20red-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/VM-Lab%20aislado-important?style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-Automatización-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Bash-Scripting-lightgrey?style=flat-square" />
+  <img src="https://img.shields.io/badge/ADB-Android%20Debug%20Bridge-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linux-Testing%20Env-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Networking-Research-blue?style=flat-square" />
 </p>
 
 ---
 
-## Proyectos
-### Análisis y fortalecimiento de seguridad FTP
-Documentación técnica, análisis de configuraciones inseguras y herramientas **defensivas** diseñadas para evaluar la seguridad del servicio FTP en entornos aislados.
+## Proyecto
 
-### Bitácoras y Laboratorios
-Resumen de prácticas, experimentos controlados y aprendizajes en redes, servicios y seguridad.
+### android-ip-rotator-adb
+Proyecto experimental de investigación que intenta **rotar la IP pública móvil** utilizando un dispositivo Android conectado por USB y controlado mediante **ADB**, sin root.
 
-*(Más proyectos en camino.)*
+El objetivo principal **no es evadir controles**, sino **entender y documentar**:
+
+- La diferencia entre acciones manuales del sistema (UI) y comandos ejecutados por ADB  
+- El comportamiento real del framework de telephony de Android  
+- Las limitaciones impuestas por el sistema operativo, el módem y el operador móvil  
+- El impacto de CGNAT y asignaciones “sticky” de IPv4  
+- Por qué ciertos enfoques “teóricos” no funcionan en la práctica  
+
+El proyecto incluye:
+- Script en Python para automatizar pruebas  
+- Comparación de IP antes y después de cambios de estado  
+- Registro de resultados negativos (fallos reales, no ocultos)  
+- Documentación técnica para que otros puedan **replicar, verificar y continuar la investigación**
+
+Este repositorio está pensado como **base de estudio**, no como una solución mágica.
 
 ---
 
 ## Ética de mi trabajo
-Creo firmemente en que **todo conocimiento en ciberseguridad tiene un impacto**, y depende del uso que se le dé.  
+Creo firmemente que **entender los límites de un sistema es parte esencial de la seguridad**.
+
 Por eso:
+- Todo el trabajo se realiza con fines educativos y de investigación  
+- No se publican exploits ni técnicas ofensivas  
+- Los experimentos se hacen en dispositivos propios y entornos controlados  
+- Se documentan también los fracasos, porque enseñan tanto como los éxitos  
 
-- Mis proyectos están diseñados para **comprender y mejorar la seguridad**, no para vulnerarla.  
-- No publico exploits ni código ofensivo, pero soy consciente de que incluso información defensiva puede ser malinterpretada o mal usada.  
-- Por ello, mantengo un compromiso fuerte con el **uso responsable**, la **educación**, y el **hacking ético**.  
-- Todo mi trabajo se desarrolla exclusivamente en **entornos aislados**, con fines educativos y sin afectar sistemas reales.
-
->  *Mi objetivo es aprender, compartir buenas prácticas y promover una cultura segura en la tecnología.*
+> *Aprender cómo y por qué algo no funciona también es conocimiento técnico válido.*
 
 ---
