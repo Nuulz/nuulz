@@ -1,37 +1,41 @@
-<h1 align="center"> Hola, soy <strong>Nobz</strong></h1>
+<h1 align="center">Hey, I'm <strong>Nobz</strong></h1>
 
 <p align="center">
-  Estudiante de Ciberseguridad · Análisis de Vulnerabilidades · Seguridad Defensiva  
+  Cybersecurity Student · Vulnerability Analysis · Defensive Security
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Cybersecurity-Learning-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Debian-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Linux-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Defensive%20Security-green?style=for-the-badge" />
 </p>
 
 ---
 
-## Sobre mí
-Soy **Nobz**, un estudiante autodidacta de ciberseguridad interesado en comprender cómo funcionan los sistemas a bajo nivel, cómo se originan ciertos comportamientos inesperados en redes y servicios, y cuáles son los límites reales impuestos por el software, el hardware y los proveedores.
+## About me
 
-Mi enfoque principal es **investigar, documentar y aprender**, siempre desde una perspectiva **defensiva, técnica y ética**.
+I'm **Nobz**, a self-taught cybersecurity student focused on understanding how systems work at a low level — how unexpected behaviors show up in networks and services, and what the real limits of software, hardware and carriers actually are.
 
----
-
-## Áreas de interés
-- Seguridad defensiva y hardening de sistemas  
-- Análisis técnico de comportamientos del sistema operativo  
-- Redes móviles y asignación de direcciones IP  
-- Automatización y scripting con Python y Bash  
-- Análisis de límites arquitectónicos y de diseño  
-- Documentación técnica clara y reproducible  
+My main thing is **researching, documenting and learning**, always from a **defensive, technical and ethical** angle.
 
 ---
 
-## Herramientas que utilizo
+## What I'm into
+
+- Defensive security and system hardening
+- Technical analysis of OS behavior
+- Mobile networks and IP address assignment
+- Automation and scripting with Python and Bash
+- Architectural and design constraints analysis
+- Clean, reproducible technical documentation
+
+---
+
+## Tools I use
+
 <p>
-  <img src="https://img.shields.io/badge/Python-Automatización-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Rust-Systems-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-Automation-yellow?style=flat-square" />
   <img src="https://img.shields.io/badge/Bash-Scripting-lightgrey?style=flat-square" />
   <img src="https://img.shields.io/badge/ADB-Android%20Debug%20Bridge-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Linux-Testing%20Env-orange?style=flat-square" />
@@ -40,38 +44,42 @@ Mi enfoque principal es **investigar, documentar y aprender**, siempre desde una
 
 ---
 
-## Proyecto
+## Projects
+
+### ExphoraDB
+A fast, lightweight desktop app for exploring and analyzing structured datasets (JSON, CSV, SQLite, XML, NDJSON).
+Built with Rust + Tauri v2 + React 19. Local-first, no cloud, with P2P encrypted sharing.
+
+→ [github.com/Nuulz/Exphora_db](https://github.com/Nuulz/Exphora_db)
 
 ### android-ip-rotator-adb
-Proyecto experimental de investigación que intenta **rotar la IP pública móvil** utilizando un dispositivo Android conectado por USB y controlado mediante **ADB**, sin root.
+Experimental research project that attempts to **rotate mobile public IP** using an Android device over USB controlled via **ADB**, no root required.
 
-El objetivo principal **no es evadir controles**, sino **entender y documentar**:
+The goal isn't to bypass controls — it's to **understand and document**:
 
-- La diferencia entre acciones manuales del sistema (UI) y comandos ejecutados por ADB  
-- El comportamiento real del framework de telephony de Android  
-- Las limitaciones impuestas por el sistema operativo, el módem y el operador móvil  
-- El impacto de CGNAT y asignaciones “sticky” de IPv4  
-- Por qué ciertos enfoques “teóricos” no funcionan en la práctica  
+- The difference between manual UI actions and ADB-executed commands
+- How Android's telephony framework actually behaves
+- Limits imposed by the OS, modem and mobile carrier
+- CGNAT and sticky IPv4 assignment behavior
+- Why certain "theoretical" approaches don't work in practice
 
-El proyecto incluye:
-- Script en Python para automatizar pruebas  
-- Comparación de IP antes y después de cambios de estado  
-- Registro de resultados negativos (fallos reales, no ocultos)  
-- Documentación técnica para que otros puedan **replicar, verificar y continuar la investigación**
+Includes a Python script for automated testing, before/after IP comparison, real failure logs (not hidden), and full technical documentation so others can replicate, verify and build on top of it.
 
-Este repositorio está pensado como **base de estudio**, no como una solución mágica.
+This repo is meant as a **study base**, not a magic solution.
+
+→ [github.com/Nuulz/android-ip-rotator-adb](https://github.com/Nuulz/android-ip-rotator-adb)
 
 ---
 
-## Ética de mi trabajo
-Creo firmemente que **entender los límites de un sistema es parte esencial de la seguridad**.
+## Ethics
 
-Por eso:
-- Todo el trabajo se realiza con fines educativos y de investigación  
-- No se publican exploits ni técnicas ofensivas  
-- Los experimentos se hacen en dispositivos propios y entornos controlados  
-- Se documentan también los fracasos, porque enseñan tanto como los éxitos  
+I believe **understanding a system's limits is a core part of security**.
 
-> *Aprender cómo y por qué algo no funciona también es conocimiento técnico válido.*
+- Everything here is done for educational and research purposes
+- No exploits or offensive techniques are published
+- All experiments run on personal devices and controlled environments
+- Failures are documented too — they teach just as much as successes
+
+> *Knowing how and why something doesn't work is still valid technical knowledge.*
 
 ---
